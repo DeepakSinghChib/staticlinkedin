@@ -1,0 +1,98 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+
+/*making the body margin and padding as 0px with bg color as black*/
+
+.container {
+    border: 10px double rgb(240, 230, 230);
+    width: 500px;
+    height: 580px;
+    margin-left: 415px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/*styling the div with container as its class*/
+
+.blue {
+    background-image: url("https://images.unsplash.com/photo-1623116135497-a90bdc0ddca9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cGF0dGVybnN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 130px;
+}
+
+/*styling the div with blue as its class*/
+
+.white {
+    background-color: gainsboro;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*styling the div with white as its class*/
+
+
+.blue>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 90px;
+    border: 5px solid gainsboro;
+    margin-top: 35px;
+    margin-left: 160px;
+    transition: smooth;
+}
+
+/*styling the img child of  blue  class*/
+
+.info {
+    height: 310px;
+    width: 350px;
+    margin-left: 75px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+/*styling the div with info as its class*/
+
+.sym {
+    width: 400px;
+    height: 40px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/*styling the div with sym as its class*/
+
+.info>h1{
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-family: cursive;
+}
+
+/*styling the h1 tag of  info  class*/
+
+.info>h2 {
+    text-transform: uppercase;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+/*styling the h2 tag of  info  class*/
+
+.info>p {
+    text-transform: capitalize;
+    font-size: larger;
+    font-family: cursive;
+    padding-right: 40px;
+}
+
+/*styling the p tag of  info  class*/

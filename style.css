@@ -1,0 +1,329 @@
+
+/*also used inline css to style some of the elements */
+
+
+body {
+    background-color: #FAF4B7;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*making the padding and margin of body as 0px and giving body a background color*/
+
+.header {
+    height: 70px;
+    width: 1350px;
+    background-color: #F9F9F9;
+    display: flex;
+    position: fixed;
+    top: 0px;
+}/*styling the header class to design the nav bar*/
+
+
+.search {
+    width: 350px;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+}/*Styling the search class that is inside the header class*/
+
+.search>svg {
+    margin-top: 20px;
+}/*Styling the sub element svg of search class */
+
+.icons {
+    height: 70px;
+  width: 600px;
+}/*styling the icons class*/
+
+.drop {
+    display: flex;
+    margin-left: 30px;
+}/*styling the drop class */
+
+.container {
+    height: 1800px;
+    width: 1350px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    margin-top: 90px;
+}/*styling the container class*/
+
+.left {
+    height: 3330px;
+    width: 370px;
+}/*styling the sub class left of container*/
+
+.pic {
+    height: 430px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    border: 2px solid gray;
+    border-radius: 12px;
+}/*styling the sub class of left */
+
+.pic>div img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: 5px solid whitesmoke;
+    margin-top: 30px;
+    margin-left: 125px;
+}/*styling the user photo*/
+
+.recent {
+    height: 420px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    position: sticky;
+    top: 92px;
+}/*styling the sub class recent of class left*/
+
+.right {
+    height: 3330px;
+    width: 370px;
+}/*styling the child class right of class container*/
+
+.news {
+    height: 280px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    line-height: 18px;
+}/*styling the news class*/
+
+.news>dl dt {
+    text-transform: capitalize;
+    color: rgb(20, 20, 20);
+    font-style: italic;
+    margin-left: 15px;
+    font-weight: bold;
+}/*styling the dt element under class news*/
+
+.news>dl dd {
+    text-transform: capitalize;
+    color: grey;
+    font-style: italic;
+}/*styling the dd element of news class */
+
+.courses {
+    height: 250px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 12px;
+}/*styling the course class*/
+
+.courses>dl dt {
+    text-transform: capitalize;
+    color: rgb(20, 20, 20);
+    font-style: italic;
+    margin-left: 15px;
+    font-weight: bold;
+}/*styling the dt element under class course*/
+
+.courses>dl dd {
+    text-transform: capitalize;
+    color: grey;
+    font-style: italic;
+}/*styling the dd element of course class */
+
+.company {
+    height: 400px;
+    width: 350px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    position: sticky;/*making the div having the class company sticky*/
+    top: 92px;
+}/*styling the sub class company of right class */
+
+.feeds {
+    display: flex;
+}/*styling the feeds class*/
+
+.feeds>div p {
+    text-transform: capitalize;
+    color: gray;
+}/*styling the p tag under div of class feeds*/
+
+.feeds>div button {
+    height: 30px;
+    width: 200px;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: 0.5px solid grey;
+}/*styling the button under div of class feeds*/
+
+.middle {
+    height: 3330px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}/*styling the middle class*/
+
+.post {
+    height: 100px;
+    width: 550px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}/*styling the post class*/
+
+.photo {
+    height: 50px;
+    width: 500px;
+    display: flex;
+}/*styling the photo class*/
+
+.photo>input {
+    width: 420px;
+    border-radius: 12px;
+    margin-top: 7px;
+    margin-left: 16px;
+    background-color: whitesmoke;
+}/*styling the input of photo class*/
+
+.photo>img {
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}/*styling the img tag of photo class*/
+
+.images {
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}/*styling the image class*/
+
+.images>p {
+    margin-top: 2px;
+    text-transform: capitalize;
+}/*styling the p tag of images class*/
+
+.pizzahut {
+    border: 1px solid lightgrey;
+    height: 612px;
+    background-color: whitesmoke;
+}/*styling the  pizzahut class*/
+
+.top {
+    display: flex;
+    height: 100px;
+    line-height: 25px;
+}/*styling the top class*/
+
+.top>svg {
+    margin-left: 10px;
+}/*styling the svg tag of top class*/
+
+.top>div h1 {
+    margin-top: 5px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}/*styling the h1 tag under div of top class*/
+
+.top>div p {
+    margin-left: 30px;
+}/*styling the p tag under div of top class*/
+
+.dots {
+    margin-left: 200px;
+    margin-top: 30px;
+}/*styling the dots class*/
+
+.center {
+    height: 400px;
+}/*styling the center class*/
+
+.center>img {
+    height: 400px;
+    width: 547px;
+}/*styling the img tag of top class*/
+
+.bottom {
+    height: 100px;
+}/*styling the bottom class*/
+
+.bottomup {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}/*styling the bottomup class*/
+
+.bottomup>p {
+    margin-top: 0px;
+}/*styling the p tag of bottomup class*/
+
+
+.subbottom {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 15px;
+}/*styling the subbottom class*/
+
+.subbottom>p {
+    margin-top: 0px;
+}/*styling the p tag of subbottomup class*/
+
+.apple {
+    border: 1px solid lightgrey;
+    height: 612px;
+    background-color: whitesmoke;
+}/*styling the apple class*/
+
+.airindia {
+    border: 1px solid lightgrey;
+    height: 612px;
+    background-color: whitesmoke;
+}/*styling the airindia class*/
+
+.you {
+    border: 1px solid lightgrey;
+    height: 612px;
+    background-color: whitesmoke;
+}/*styling the you class*/
+
+.cycle {
+    border: 1px solid lightgrey;
+    height: 612px;
+    background-color: whitesmoke;
+}/*styling the cycle class*/
+
+
+h1 {
+    text-transform: capitalize;
+    font-family: cursive;
+}/*styling the h1 tag*/
+
+p {
+    text-transform: capitalize;
+    font-size: large;
+    font-family: cursive;
+}/*styling the h1 tag*/
+
+.round {
+    background-color: #40a8a8;
+    width: 15px;
+    padding: 5px;
+    border-radius: 50px;
+    height: 15px;
+}/*styling the round class*/
